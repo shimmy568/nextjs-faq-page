@@ -9,6 +9,17 @@ Test project made with nextjs and strapi
 - Make it so the FAQ items slide out when toggled instead of just appearing
 - add i18n
 
+# To run
+
+```bash
+cd backend
+yarn develop
+cd ../frontend
+yarn dev
+```
+
+By default no FAQ Items will appear in the list since the database information is not commited to the repo. You'll have to add your own FAQ items if you want to see them appear on the webpage.
+
 # Screenshots
 
 ![pic1](img/pic1.png)
