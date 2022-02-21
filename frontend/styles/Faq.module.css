@@ -32,3 +32,44 @@
 .item_collapsed {
   height: 0px;
 }
+
+.expand_body {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #595959;
+}
+
+.expand_container {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  border-bottom: solid;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  width: 100%;
+  border-width: 2px;
+  border-color: #ebebeb;
+  color: #595959;
+  width: 80%;
+}
+
+.expand_container:hover {
+  color: #6ecbb8;
+}
+
+.toggle_button {
+  float: right;
+}
