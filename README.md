@@ -1,6 +1,6 @@
 # nextjs-faq-page
 
-Test project made with nextjs and strapi
+Test project made with nextjs and strapi. Made to fetch FAQ page items from a strapi CDN and render them in a collapsible list.
 
 # To run
 
